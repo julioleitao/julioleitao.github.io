@@ -1,0 +1,43 @@
+baseurl = "http://julioleitao.github.io/"
+languageCode = "en-US"
+title = "J?lio Leit?o"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+theme = "hugo-sustain"
+publish = "docs"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug"
+
+[params]
+  avatar = "profile.png"
+  author = "J?lio Leit?o"
+  description = "Describe your website"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Github        = "julioleitao"
+  Email         = "julio.leitao.jr@gmail.com"
+  LinkedIn      = "j?lio-leit?o-de-melo-j?nior-j?lio-leit?o-de-melo-j?nior"
+
+## Main Menu
+##[[menu.main]]
+##  name = "blog"
+##  weight = 100
+##  identifier = "blog"
+##  url = "/blog/"
+##[[menu.main]]
+##  name = "projects"
+##  identifier = "projects"
+##  weight = 200
+##  url = "/projects/"
+##[[menu.main]]
+##  name = "resume"
+##  identifier = "resume"
+##  weight = 300
+##  url = "/resume/"
