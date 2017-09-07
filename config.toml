@@ -1,6 +1,6 @@
 baseurl = "https://julioleitao.github.io/"
 languageCode = "en-US"
-title = "J?lio Leit?o"
+title = "Júlio Leitão"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
@@ -12,8 +12,8 @@ theme = "hugo-sustain"
 
 [params]
   avatar = "profile.png"
-  author = "J?lio Leit?o"
-  description = "Describe your website"
+  author = "Júlio Leitão"
+  description = "Personal page"
 
   # Custom assets can be linked with their paths relative to static/
   custom_css = []
@@ -22,7 +22,7 @@ theme = "hugo-sustain"
 [params.social]
   Github        = "julioleitao"
   Email         = "julio.leitao.jr@gmail.com"
-  LinkedIn      = "j?lio-leit?o-de-melo-j?nior-j?lio-leit?o-de-melo-j?nior"
+  LinkedIn      = "júlio-leitão-de-melo-júnior-681937b4"
 
 ## Main Menu
 ##[[menu.main]]
