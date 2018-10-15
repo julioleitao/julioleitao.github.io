@@ -22,7 +22,7 @@ theme = "hugo-sustain"
 [params.social]
   Github        = "julioleitao"
   Email         = "julio.leitao.jr@gmail.com"
-  LinkedIn      = "júlio-leitão-de-melo-júnior-681937b4"
+  LinkedIn      = "júlio-leitão-681937b4"
 
 ## Main Menu
 ##[[menu.main]]
