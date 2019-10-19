@@ -1,20 +1,39 @@
 {{ partial "head" . }}
-  <body>
-    <div id="wrap">
-      {{ partial "header" . }}
-      <section id="about">
-        <div class="container">
+
+<body>
+  <div id="wrap">
+    {{ partial "header" . }}
+    <section id="about">
+      <div class="container">
         <div class="avatar">
-          <img class="img-circle" src="https://s.gravatar.com/avatar/bded7904d07d650f9a51fcdb7d9f2408?s=200" alt="profile image">
+          <img class="img-circle" src="https://s.gravatar.com/avatar/bded7904d07d650f9a51fcdb7d9f2408?s=400"
+            alt="profile image">
         </div>
         <h3>Hello! I'm <strong>{{ .Site.Params.author }}</strong>, a Software Engineer from Brazil.</h3>
-        <h3>My interests are Web Development, Functional Programming, Distributed Systems, DevOps, and Software Architecture.</h3>
-        <h3>I write sometimes at <a href="https://medium.com/{{ .Site.Params.Social.Medium }}">Medium</a> and I help people to improve their programming skills as Mentor at <a href="https://exercism.io/profiles/julioleitao">Exercism</a>.</h3>
+        <h3>My interests are Web Development, Functional Programming, Distributed Systems, DevOps, and Software
+          Architecture.</h3>
+        <h3>I write sometimes at <a href="https://medium.com/{{ .Site.Params.Social.Medium }}">Medium</a> and I help
+          people to improve their programming skills as Mentor at <a
+            href="https://exercism.io/profiles/julioleitao">Exercism</a>.</h3>
         <h3>Check out my professional profile or feel free to contact me.</h3>
       </div>
+
+      <hr>
+
+      <div class="container">
+        <h3>Talks</h3>
+        <h4>
+          <a href="http://bit.ly/opendevufcg2019-interview">Além dos algoritmos: como se preparar para processos e
+            entrevistas</a>
+        </h4>
+      </div>
+
       {{ partial "social.html" . }}
-      </section>
-    </div>
-    {{ partial "footer" . }}
-  </body>
+    </section>
+  </div>
+
+  {{ partial "footer" . }}
+
+</body>
+
 </html>
